@@ -3,9 +3,612 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Questão 7</title>
+	<title>Curriculo - Hérculis Pereira de Carvalho</title>
+	<link rel="icon" type="image/jpeg" href="../imagens/perfil.png">
 </head>
 <body>
+
+	<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Currículo</title>
+
+    <style>
+
+    	/* DESTAQUE DO PERFIL PROFISSIONAL */
+
+		#sobre {
+		    background-color: #e0e7ff;
+		    border-left: 5px solid #1e3a8a;
+		}
+
+		#sobre h2 {
+		    color: #172554;
+		}
+
+		#sobre p {
+		    text-align: justify;
+		    line-height: 1.8;
+		}
+
+    	/* CABEÇALHO COM FOTO */
+
+		.perfil {
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    gap: 30px;
+		}
+
+		/* FOTO DE PERFIL */
+
+		.foto-perfil {
+		    width: 150px;
+		    height: 150px;
+		    border-radius: 50%;
+		    border: 4px solid white;
+		    object-fit: cover;
+		}
+
+		/* INFORMAÇÕES DO PERFIL */
+
+		.informacoes-perfil {
+		    text-align: left;
+		}
+
+		.informacoes-perfil h1 {
+		    font-size: 28px;
+		    margin-bottom: 10px;
+		}
+
+		.informacoes-perfil p {
+		    text-align: left;
+		    margin: 5px 0;
+		}
+
+        /* FORMATAÇÃO GERAL */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #334155;
+            margin: 0;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+            text-align: center;
+        }
+
+        /* MENU DE NAVEGAÇÃO */
+
+        nav {
+            background-color: #1e3a8a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #60a5fa;
+            color: #172554;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+
+        main {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        }
+
+        section h2 {
+            color: #1e3a8a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2563eb;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        /* LINKS */
+
+        a {
+            color: #2563eb;
+        }
+
+        /* BOTÃO VOLTAR AO INÍCIO */
+
+        .voltar {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .voltar a {
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .voltar a:hover {
+            background-color: #172554;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header id="inicio">
+
+    <div class="perfil">
+
+        <img src="../imagens/perfil.png"
+             alt="Foto de perfil"
+             class="foto-perfil">
+
+        <div class="informacoes-perfil">
+
+            <h1>Hérculis Pereira de Carvalho</h1>
+
+            <p>
+                Estudante de Desenvolvimento de Sistemas
+            </p>
+
+            <p>
+                Interesse em Tecnologia e Programação
+            </p>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+    <!-- MENU DE NAVEGAÇÃO -->
+
+    <nav>
+
+	    <a href="#sobre">Sobre Mim</a>
+	    <a href="#dados">Dados Pessoais</a>
+	    <a href="#formacao">Formação Acadêmica</a>
+	    <a href="#cursos">Outros Cursos</a>
+	    <a href="#experiencia">Experiência</a>
+	    <a href="#idiomas">Idiomas</a>
+	    <a href="#informatica">Informática</a>
+	    <a href="#adicionais">Informações Adicionais</a>
+
+	</nav>
+
+
+    <main>
+
+    	<section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Sou estudante do curso Técnico em Desenvolvimento de Sistemas
+            e estou em processo de transição de carreira da Engenharia
+            Civil para a área de Tecnologia da Informação, pela qual
+            sempre tive grande interesse, especialmente em programação
+            e desenvolvimento.
+        </p>
+
+        <p>
+            Cursei Engenharia Civil até o 7º período, trajetória que
+            me proporcionou conhecimentos técnicos e experiências
+            importantes, principalmente em gestão de equipes,
+            liderança, organização e resolução de problemas.
+            Apesar do aprendizado adquirido, percebi que meus
+            interesses e objetivos profissionais estavam mais
+            alinhados à área de tecnologia.
+        </p>
+
+        <p>
+            Motivado por essa identificação, decidi direcionar
+            minha formação para o desenvolvimento de sistemas,
+            buscando construir uma base sólida de conhecimentos
+            técnicos e aprimorar continuamente minhas habilidades
+            em programação.
+        </p>
+
+        <p>
+            Meu objetivo é conquistar uma oportunidade na área de
+            desenvolvimento de software, na qual possa aplicar
+            os conhecimentos que venho adquirindo, desenvolver
+            novas competências e contribuir com soluções tecnológicas.
+        </p>
+
+        <p>
+            Encaro essa transição como uma oportunidade de crescimento
+            pessoal e profissional, levando comigo as experiências
+            adquiridas na Engenharia Civil, especialmente as habilidades
+            de gestão e liderança, que pretendo continuar desenvolvendo
+            ao longo da minha carreira em Tecnologia da Informação.
+        </p>
+
+        <div class="voltar">
+            <a href="#inicio">↑ Voltar ao início</a>
+        </div>
+
+    	</section>
+
+        <!-- 1. DADOS PESSOAIS -->
+
+        <section id="dados">
+
+            <h2>Dados Pessoais</h2>
+
+            <p><strong>Nome:</strong> Hérculis Pereira de Carvalho</p>
+
+            <p><strong>Data de nascimento:</strong> 25/12/2000</p>
+
+            <p><strong>Estado civil:</strong> Solteiro</p>
+
+            <p><strong>Endereço:</strong> Rua Henrique Couto, Lourival Parente, Teresina - PI</p>
+
+            <p><strong>Telefone:</strong> 86 995866469</p>
+
+            <p><strong>E-mail:</strong> herculispereira.ti@gmail.com</p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/herculispereira" target="_blank">
+                    Meu GitHub
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/hérculis-pereiraa" target="_blank">
+                    Meu LinkedIn
+                </a>
+            </p>
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 2. FORMAÇÃO ACADÊMICA -->
+
+        <section id="formacao">
+
+            <h2>Formação Educacional</h2>
+
+            <h3>Técnico em Desenvolvimento de Sistemas</h3>
+
+            <p>
+                <strong>Instituição:</strong>
+                Instituto Federal do Piauí (IFPI)
+            </p>
+
+            <p><strong>Campus:</strong> Teresina Central</p>
+
+            <p><strong>Período:</strong> 1 - Em andamento</p>        
+
+
+            <h3>Ensino Superior - Engenharia Civil</h3>
+
+            <p><strong>Instituição:</strong> UNIFSA</p>
+
+            <p><strong>Período:</strong> 7 - Trancado</p>
+
+            <h3>Ensino Médio Integrado ao Técnico em Informática</h3>
+
+            <p>
+                <strong>Instituição:</strong>
+                Instituto Federal do Piauí (IFPI)
+            </p>
+
+            <p><strong>Campus:</strong> Corrente - PI</p>
+
+            <p><strong>Conclusão:</strong> 2018</p>
+     
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 3. OUTROS CURSOS -->
+
+        <section id="cursos">
+
+            <h2>Cursos/Seminários</h2>
+
+            <h3>Participação: Teresina Info</h3>
+
+            <p><strong>Instituição:</strong> IFPI</p>
+
+            <p><strong>Local:</strong> Teresina - PI</p>
+
+            <p><strong>Carga horária:</strong> 40 horas</p>
+
+            <p><strong>Conclusão:</strong> 2026</p>
+
+            <h3>Git e Github</h3>
+
+            <p><strong>Instituição:</strong> Curso em vídeo</p>
+
+            <p><strong>Local:</strong> Online</p>
+
+            <p><strong>Carga horária:</strong> 20 horas</p>
+
+            <p><strong>Conclusão:</strong> 2026</p>            
+
+
+            <h3>Oratória "Alta Performace"</h3>
+
+            <p><strong>Instituição:</strong> Câmara Municipal de Teresina</p>
+
+            <p><strong>Local:</strong> Teresina - PI</p>
+
+            <p><strong>Carga horária:</strong> 20 horas</p>
+
+            <p><strong>Conclusão:</strong> 2025</p>
+
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 4. EXPERIÊNCIA PROFISSIONAL -->
+
+        <section id="experiencia">
+
+            <h2>Experiência Profissional</h2>
+
+            <h3>Auxiliar de Compras</h3>
+
+            <p><strong>Empresa:</strong> Delta Wise Gente</p>
+
+            <p><strong>Local:</strong> Teresina - PI</p>
+
+            <p><strong>Período:</strong> [08/2024 - 05/2025]</p>
+
+            <p><strong>Função:</strong> Comprador</p>
+
+            <p><strong>Atividades desenvolvidas:</strong></p>
+
+            <ul>
+            	<li>Compra de Materias/insumos para obras.</li>
+
+                <li>Acompanhamento de atividades em campo.</li>
+
+                <li>Apoio à gestão de pequenas equipes.</li>
+
+                <li>Acompanhamento da execução de serviços.</li>
+
+                <li>Negociação com vendedores.</li>
+
+                
+            </ul>
+
+            <h3>Estágio na Área de Engenharia Civil</h3>
+
+            <p><strong>Empresa:</strong> Alpha & Omega</p>
+
+            <p><strong>Local:</strong> Teresina - PI</p>
+
+            <p><strong>Período:</strong> [09/2023 - 03/2024]</p>
+
+            <p><strong>Função:</strong> Estagiário</p>
+
+            <p><strong>Atividades desenvolvidas:</strong></p>
+
+            <ul>
+            	<li>Compra de Materias/insumos para obra.</li>
+
+                <li>Acompanhamento de atividades em campo.</li>
+
+                <li>Apoio à gestão de pequenas equipes.</li>
+
+                <li>Acompanhamento da execução de serviços.</li>
+
+                <li>Medições de produção.</li>
+
+                
+            </ul>
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 5. IDIOMAS -->
+
+        <section id="idiomas">
+
+            <h2>Idiomas</h2>
+
+            <ul>
+                <li>
+                    <strong>Português:</strong>
+                    Língua materna.
+                </li>
+
+                <li>
+                    <strong>Inglês:</strong>
+                    Básico
+                </li>
+                
+            </ul>
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 6. INFORMÁTICA -->
+
+        <section id="informatica">
+
+            <h2>Conhecimentos em Informática</h2>
+
+            <h3>Programação</h3>
+
+            <ul>
+                <li>Lógica de programação e algoritmos.</li>
+                <li>Python - Básico.</li>
+                <li>HTML - Básico.</li>
+                <li>Java - Básico</li>
+                <li>SQL - Básico</li>
+                
+            </ul>
+
+            <h3>Ferramentas e Tecnologias</h3>
+
+            <ul>
+                <li>Git - Controle de versão (em estudo).</li>
+                <li>GitHub - Repositórios de código (em estudo).</li>
+                <li>Editores de código e ambientes de desenvolvimento.</li>
+            </ul>
+
+            <h3>Outros Conhecimentos</h3>
+
+            <ul>
+                <li>Fundamentos de informática.</li>
+                <li>Conceitos de algoritmos e paradigma Orientado a Objeto.</li>
+                <li>Fundamentos de sistemas operacionais.</li>
+                <li>Pacote Office / LibreOffice - Intermediario</li>
+            </ul>
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+        <!-- 7. INFORMAÇÕES ADICIONAIS -->
+
+        <section id="adicionais">
+
+            <h2>Outras Participações</h2>
+
+            <ul>
+
+                <li>
+                    Interesse em oportunidades de estágio
+                    na área de Tecnologia da Informação.
+                </li>
+
+                <li>
+                    Interesse em desenvolvimento de software
+                    e aplicações web.
+                </li>
+
+                <li>
+                    Experiência com organização de atividades
+                    e acompanhamento de equipes.
+                </li>
+
+                <li>
+                    Disponibilidade para estágio:
+                    Presencial, Remoto ou Híbrido.
+                </li>
+
+                <li>
+                    Carteira Nacional de Habilitação:
+                    AB.
+                </li>
+
+            </ul>
+
+            <div class="voltar">
+                <a href="#inicio">↑ Voltar ao início</a>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            Currículo Pessoal - Desenvolvido com HTML e CSS
+        </p>
+
+    </footer>
+
+</body>
+</html>
 
 </body>
 </html>
