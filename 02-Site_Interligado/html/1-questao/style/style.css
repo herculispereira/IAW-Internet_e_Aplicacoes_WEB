@@ -1,0 +1,47 @@
+        body {
+            font-family: Verdana, sans-serif;
+            color: #6784C2;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 30px;
+            line-height: 1.6;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .linha-esquerda,
+        .linha-direita {
+            width: 50%;
+            border: none;
+            border-top: 2px solid #6784C2;
+        }
+
+        .linha-esquerda {
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .linha-direita {
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        ol {
+            padding-left: 35px;
+            font-size: 2;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: right;
+            color: gray;
+            font-size: 2;
+            font-style: italic;
+        }

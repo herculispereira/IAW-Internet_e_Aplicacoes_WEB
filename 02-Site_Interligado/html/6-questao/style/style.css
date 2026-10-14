@@ -1,0 +1,141 @@
+        /* FORMATAÇÃO GERAL */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5EBD8;
+            color: #333333;
+            margin: 0;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #784421;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+
+        main {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            background-color: #FFFDF7;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #C87941;
+        }
+
+        /* TÍTULOS */
+
+        h2 {
+            color: #693B22;
+            border-bottom: 2px solid #C87941;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #784421;
+        }
+
+        /* PARÁGRAFOS */
+
+        p {
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        /* MENU DE NAVEGAÇÃO VERTICAL */
+
+        nav {
+            background-color: #B65C32;
+            width: 350px;
+            max-width: 90%;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px auto;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #E9B872;
+            color: #693B22;
+        }
+
+        /* IMAGENS */
+
+        figure {
+            display: inline-block;
+            text-align: center;
+            margin: 15px;
+        }
+
+        figure img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #C87941;
+        }
+
+        figcaption {
+            color: #693B22;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        /* BOTÃO VOLTAR AO TOPO */
+
+        .voltar {
+            text-align: right;
+            margin-top: 25px;
+        }
+
+        .voltar a {
+            background-color: #687A46;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .voltar a:hover {
+            background-color: #485A30;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #784421;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            text-align: center;
+        }
+
+        footer a {
+            color: #E9B872;
+        }

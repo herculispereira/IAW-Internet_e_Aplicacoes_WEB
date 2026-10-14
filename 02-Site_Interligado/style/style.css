@@ -1,0 +1,91 @@
+        /* FORMATAÇÃO GERAL */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F2F4F3;
+            color: #333333;
+            margin: 0;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #123B40;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* MENU DE NAVEGAÇÃO HORIZONTAL */
+
+        nav {
+            background-color: #087E83;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        /* EFEITO AO PASSAR O MOUSE */
+
+        nav a:hover {
+            background-color: #36B5AD;
+            color: #123B40;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+
+        main {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* SEÇÕES */
+
+        section {
+            background-color: #FFFFFF;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border-left: 5px solid #149A96;
+        }
+
+        /* TÍTULOS */
+
+        h2 {
+            color: #164A4E;
+        }
+
+        /* LISTAS */
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* LINKS DAS ATIVIDADES */
+
+        section a {
+            color: #087E83;
+            text-decoration: none;
+        }
+
+        section a:hover {
+            color: #123B40;
+            text-decoration: underline;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            background-color: #123B40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
