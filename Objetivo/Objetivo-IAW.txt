@@ -1,0 +1,5 @@
+Objetivo:
+• Compreender paradigmas de computação no contexto da web;
+• Conhecer os comandos básicos das linguagens;
+• Conhecer operadores, tipos de dados e expressões;
+• Praticar e entender suas utilizações e contextos onde podem ser aplicados

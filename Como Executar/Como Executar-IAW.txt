@@ -1,0 +1,7 @@
+Como Executar:
+
+Todos as pastas possuem sua pagina principal principal com nome index.html a partir dela você consegue navegar em todo a pagina.
+
+Todos os sites estão hospedados no infinityfree:
+1 - Site Básico: https://herculispereira.free.nf/
+2 - Site Interligado: https://herculispereira01.free.nf/
